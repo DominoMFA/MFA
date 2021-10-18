@@ -11,6 +11,7 @@ the mfa.nsf is a solution that enable MFA (multi factor authentication) for Domi
 - create Config document
 - you need to properly configure iMessageURL field (it's a service that sends SMS), see details https://github.com/Domino-iMessageSMS/iMessageSMS
 - in the view Template press button 'Update Login Form' (that should generate Login form inside of MFA.nsf, which is mandatory by domcfg.nsf).
+- replicate mfa.nsf to other Domino servers if needed (also configure connection/replication documents), so data are synchronized as fast as possible.
 
 ## DOMCFG
 
